@@ -1,0 +1,76 @@
+.job-list-container {
+  padding: 20px 50px;
+}
+
+.jobs-grid {
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  gap: 20px;
+}
+
+.job-card {
+  background-color: white;
+  border-radius: 10px;
+  border: 1px solid #eee;
+  padding: 20px;
+  position: relative;
+}
+
+.job-card img {
+  width: 50px;
+  height: 50px;
+  object-fit: contain;
+}
+
+.posted {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background-color: #dfe9ff;
+  padding: 5px 10px;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  color: #333;
+}
+
+.job-card h5 {
+  margin-top: 10px;
+}
+
+.details {
+  display: flex;
+  gap: 10px;
+  font-size: 0.9rem;
+  color: #777;
+  margin: 10px 0;
+}
+
+.job-card p {
+  font-size: 0.85rem;
+  color: #555;
+}
+
+.apply-btn {
+  margin-top: 10px;
+  background-color:  #00AAFF;
+  color: white;
+  border: none;
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+img{       
+  object-fit: contain; 
+  display: block;
+}
+
+.logo{
+  height: 80px !important;
+  width: 80px !important;
+}
+
+.title{
+  font-weight: 650;
+}

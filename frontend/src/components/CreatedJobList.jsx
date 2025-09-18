@@ -1,5 +1,5 @@
 import React from "react";
-import "../css/joblist.css";
+import "../css/Joblist.css";
 
 const CreatedJobList = ({ createdJobs }) => {
     return (

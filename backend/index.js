@@ -10,6 +10,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use(cors({
   origin: [
     'http://localhost:5173', 
+    'https://new-job-portal-seven.vercel.app'
   ]
 }))
 app.use(express.json())

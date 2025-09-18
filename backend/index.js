@@ -10,7 +10,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use(cors());
 app.use(express.json())
 
-app.use('/details',routes)
+app.use('/details', routes)
 
 mongoose.connect(process.env.MONGODB_URI)
   .then(() => {

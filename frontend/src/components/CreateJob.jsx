@@ -3,7 +3,7 @@ import axios from 'axios';
 import { useState } from 'react';
 import '../css/createjob.css';
 
-const CreateJob = ({ onClose,onJobCreated }) => {
+const CreateJob = ({ onClose, onJobCreated }) => {
   const [formData, setFormData] = useState({
     title: '',
     company: '',
@@ -45,18 +45,18 @@ const CreateJob = ({ onClose,onJobCreated }) => {
           <div className="form-row">
             <div className="form-group">
               <label className='forLabel'>Job Title</label>
-              <input name='title' type="text" placeholder="Full Stack Developer" onChange={handleChange}/>
+              <input name='title' type="text" placeholder="Full Stack Developer" onChange={handleChange} />
             </div>
             <div className="form-group">
               <label className='forLabel'>Company Name</label>
-              <input name='company' type="text" placeholder="Amazon, Microsoft, Swiggy" onChange={handleChange}/>
+              <input name='company' type="text" placeholder="Amazon, Microsoft, Swiggy" onChange={handleChange} />
             </div>
           </div>
 
           <div className="form-row">
             <div className="form-group">
               <label className='forLabel'>Location</label>
-              <input name="location" type="text" placeholder="Choose Preferred Location" onChange={handleChange}/>
+              <input name="location" type="text" placeholder="Choose Preferred Location" onChange={handleChange} />
             </div>
             <div className="form-group">
               <label className='forLabel'>Job Type</label>
@@ -73,14 +73,14 @@ const CreateJob = ({ onClose,onJobCreated }) => {
             <div className="form-group">
               <label className='forLabel'>Salary Range</label>
               <div className='salary-inputs'>
-                <input name="minSalary" type="text" placeholder="₹0" onChange={handleChange}/>
-                <input name="maxSalary" type="text" placeholder="₹12,00,000" onChange={handleChange}/>
+                <input name="minSalary" type="text" placeholder="₹0" onChange={handleChange} />
+                <input name="maxSalary" type="text" placeholder="₹12,00,000" onChange={handleChange} />
               </div>
             </div>
 
             <div className="form-group">
               <label className='forLabel'>Application Deadline</label>
-              <input name='deadline' type='date' onChange={handleChange}/>
+              <input name='deadline' type='date' onChange={handleChange} />
             </div>
           </div>
 

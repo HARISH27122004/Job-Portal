@@ -2,27 +2,34 @@ import Navbar from './components/Navbar';
 import SearchFilter from './components/SearchFilter';
 import JobList from './components/JobList';
 import CreateJob from './components/CreateJob';
+import CreatedJobList from './components/CreatedJobList';
 import { useState } from 'react';
 
 function App() {
   const [isModalOpen, setIsModalOpen] = useState(false);
-  const [refreshKey,setRefreshKey] = useState(0);
+  const [createdJobs, setCreatedJobs] = useState([]);
 
   const handleOpenModal = () => setIsModalOpen(true);
   const handleCloseModal = () => setIsModalOpen(false);
 
-  const handleJobCreated = () => {
-    setRefreshKey(prev => prev+1);
-  }
+  const handleJobCreated = (newJob) => {
+    setCreatedJobs((prev) => [...prev, newJob]);
+    setIsModalOpen(false);
+  };
+
   return (
     <div>
       <Navbar onOpenModal={handleOpenModal} />
-      {isModalOpen && <CreateJob onClose={handleCloseModal} onJobCreated={handleJobCreated} />}
+      {isModalOpen && (
+        <CreateJob onClose={handleCloseModal} onJobCreated={handleJobCreated} />
+      )}
       <SearchFilter />
-      <JobList refresh={refreshKey}/>
+
+      <JobList />
+
+      <CreatedJobList createdJobs={createdJobs} />
     </div>
   );
 }
 
 export default App;
-

@@ -1,0 +1,21 @@
+.salary-container {
+    width: 100%;
+    max-width: 400px;
+    margin: 20px 0;
+}
+
+.salary-header {
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.label {
+    color: #222;
+}
+
+.values {
+    color: #222;
+}

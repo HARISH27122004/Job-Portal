@@ -1,9 +1,9 @@
 const express = require('express');
 const router = express.Router();
-const {saveDetails, getDetails} = require("../controller/portalController");
+const { saveDetails, getDetails } = require("../controller/portalController");
 
-router.post('/',saveDetails);
+router.post('/', saveDetails);
 
-router.get('/getDetails',getDetails)
+router.get('/getDetails', getDetails)
 
 module.exports = router;

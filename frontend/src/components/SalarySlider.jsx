@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Slider from "rc-slider";
 import "rc-slider/assets/index.css";
-import '../css/salaryslider.css'
+import '../css/salarySlider.css'
 
 const SalarySlider = () => {
     const [range, setRange] = useState([50000, 80000]);

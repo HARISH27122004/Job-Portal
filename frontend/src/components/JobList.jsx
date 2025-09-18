@@ -1,5 +1,5 @@
 import React from 'react';
-import '../mockjobs'
+import jobs from '../mockjobs'
 import '../css/Joblist.css'
 
 function JobList() {

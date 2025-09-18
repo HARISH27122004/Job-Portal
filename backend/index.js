@@ -7,7 +7,9 @@ const PORT = process.env.PORT || 7070;
 const routes = require("./routes/portalRoute");
 
 app.use(express.urlencoded({ extended: true }));
-app.use(cors());
+app.use(cors({
+  origin: "https://job-portal-2-jzwpeq8xz-harish-rs-projects-9eef4615.vercel.app/"
+}));
 app.use(express.json())
 
 app.use('/details', routes)

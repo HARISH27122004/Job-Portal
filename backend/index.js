@@ -8,8 +8,10 @@ const routes = require("./routes/portalRoute");
 
 app.use(express.urlencoded({ extended: true }));
 app.use(cors({
-  origin: "https://job-portal-2-jzwpeq8xz-harish-rs-projects-9eef4615.vercel.app/"
-}));
+  origin: [
+    'http://localhost:5173', 
+  ]
+}))
 app.use(express.json())
 
 app.use('/details', routes)

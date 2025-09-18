@@ -24,7 +24,7 @@ const CreateJob = ({ onClose, onJobCreated }) => {
 
   const handleSubmit = async () => {
     try {
-      const res = await axios.post('https://job-portal-eojw.onrender.com/details', formData);
+      const res = await axios.post('http://localhost:7070/details/', formData);
       console.log('Job saved:', res.data);
       onJobCreated(res.data);
       onClose();

@@ -32,8 +32,9 @@ body {
   top: 20px;
   right: 20px;
   background-color: #B0D9FF;
+  opacity: 0.8;
   padding: 5px 10px;
-  border-radius: 10px;
+  border-radius: 12px;
   font-size: 1rem;
   color: black;
   font-weight: 500;
@@ -46,7 +47,7 @@ body {
 .details {
   display: flex;
   gap: 20px;
-  font-size: 1.3rem;
+  font-size: 1rem;
   color: #555555;
   margin: 10px 0;
   font-weight: 500;
@@ -89,7 +90,7 @@ img {
 }
 
 .job-description{
-  font-size: 1.2rem !important;
+  font-size: 1.1rem !important;
   margin-top: 20px !important;
 }
 

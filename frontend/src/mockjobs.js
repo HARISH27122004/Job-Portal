@@ -10,7 +10,7 @@ const jobs = [
     logo: amazonlogo,
     experience: "1-3 yr Exp",
     onsite: "Onsite",
-    salary: "12 LPA",
+    salary: "12LPA",
     posted: "24h Ago"
   },
   {
@@ -20,7 +20,7 @@ const jobs = [
     logo: teslalogo,
     experience: "1-3 yr Exp",
     onsite: "Onsite",
-    salary: "12 LPA",
+    salary: "12LPA",
     posted: "24h Ago"
   },
   {
@@ -30,7 +30,7 @@ const jobs = [
     logo: swiggylogo,
     experience: "1-3 yr Exp",
     onsite: "Onsite",
-    salary: "12 LPA",
+    salary: "12LPA",
     posted: "24h Ago"
   },
   {
@@ -40,7 +40,7 @@ const jobs = [
     logo: amazonlogo,
     experience: "1-3 yr Exp",
     onsite: "Onsite",
-    salary: "12 LPA",
+    salary: "12LPA",
     posted: "24h Ago"
   },
   {
@@ -50,7 +50,7 @@ const jobs = [
     logo: teslalogo,
     experience: "1-3 yr Exp",
     onsite: "Onsite",
-    salary: "12 LPA",
+    salary: "12LPA",
     posted: "24h Ago"
   },
   {
@@ -60,7 +60,7 @@ const jobs = [
     logo: swiggylogo,
     experience: "1-3 yr Exp",
     onsite: "Onsite",
-    salary: "12 LPA",
+    salary: "12LPA",
     posted: "24h Ago"
   },
   {
@@ -70,7 +70,7 @@ const jobs = [
     logo: amazonlogo,
     experience: "1-3 yr Exp",
     onsite: "Onsite",
-    salary: "12 LPA",
+    salary: "12LPA",
     posted: "24h Ago"
   },
   {
@@ -80,7 +80,7 @@ const jobs = [
     logo: teslalogo,
     experience: "1-3 yr Exp",
     onsite: "Onsite",
-    salary: "12 LPA",
+    salary: "12LPA",
     posted: "24h Ago"
   }
 ];

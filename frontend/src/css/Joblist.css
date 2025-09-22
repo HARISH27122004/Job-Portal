@@ -1,3 +1,8 @@
+body {
+  background-color: #FBFBFF;
+}
+
+
 .job-list-container {
   padding: 20px 50px;
 }
@@ -9,10 +14,9 @@
 }
 
 .job-card {
-  background-color: white;
+  background-color: #FFFFFF;
   border-radius: 12px;
   box-shadow: 0px 0px 14px rgba(211, 211, 211, 0.15);
-  border: 1px solid #eee;
   padding: 20px;
   position: relative;
 }
@@ -27,28 +31,31 @@
   position: absolute;
   top: 20px;
   right: 20px;
-  background-color: #dfe9ff;
+  background-color: #B0D9FF;
   padding: 5px 10px;
-  border-radius: 20px;
-  font-size: 0.8rem;
-  color: #333;
+  border-radius: 10px;
+  font-size: 1rem;
+  color: black;
+  font-weight: 500;
 }
 
-.job-card h5 {
+.job-card p {
   margin-top: 10px;
 }
 
 .details {
   display: flex;
-  gap: 10px;
-  font-size: 0.9rem;
-  color: #777;
+  gap: 20px;
+  font-size: 1.3rem;
+  color: #555555;
   margin: 10px 0;
+  font-weight: 500;
 }
 
 .job-card p {
-  font-size: 0.85rem;
-  color: #555;
+  font-size: 1rem;
+  color: #555555;
+  font-weight: 500;
 }
 
 .apply-btn {
@@ -58,8 +65,11 @@
   border: none;
   width: 100%;
   padding: 10px;
-  border-radius: 5px;
   cursor: pointer;
+  border: 1px solid #00AAFF;
+  box-shadow: 0px 0px 14px rgba(93, 93, 93, 0.15);
+  border-radius: 10px;
+  font-weight: 500;
 }
 
 img {
@@ -68,10 +78,39 @@ img {
 }
 
 .logo {
-  height: 80px !important;
-  width: 80px !important;
+  height: 90px !important;
+  width: 90px !important;
 }
 
 .title {
-  font-weight: 650;
+  font-weight: 700 !important;
+  font-size: 1.5rem !important;
+  color: #000000 !important;
+}
+
+.job-description{
+  font-size: 1.2rem !important;
+  margin-top: 20px !important;
+}
+
+.forIcon{
+  font-size: 1.5rem;
+}
+
+svg{
+  width: 25px;
+  height: 25px;
+}
+
+.alert-message {
+  color: red;
+  font-size: 2.5rem;
+  font-weight: 600;
+  text-align: center;
+  grid-column: 1 / -1;
+  margin-top: 30px;
+}
+
+.forNewJob{
+    font-size: 1.1rem!important;
 }

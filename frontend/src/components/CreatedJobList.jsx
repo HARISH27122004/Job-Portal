@@ -8,12 +8,12 @@ const CreatedJobList = ({ createdJobs }) => {
                 {createdJobs.map((job, index) => (
                     <div key={index} className="job-card">
                         <h5 className="title">{job.title}</h5>
-                        <p><strong>Company:</strong> {job.company}</p>
-                        <p><strong>Location:</strong> {job.location}</p>
-                        <p><strong>Type:</strong> {job.jobtype}</p>
-                        <p><strong>Salary:</strong> ₹{job.minSalary} - ₹{job.maxSalary}</p>
-                        <p><strong>Deadline:</strong> {job.deadline}</p>
-                        <p>{job.description}</p>
+                        <p className="forNewJob"><strong>Company:</strong> {job.company}</p>
+                        <p className="forNewJob"><strong>Location:</strong> {job.location}</p>
+                        <p className="forNewJob"><strong>Type:</strong> {job.jobtype}</p>
+                        <p className="forNewJob"><strong>Salary:</strong> ₹{job.minSalary} - ₹{job.maxSalary}</p>
+                        <p className="forNewJob"><strong>Deadline:</strong> {job.deadline}</p>
+                        <p className="forNewJob">{job.description}</p>
                         <button className="apply-btn">Apply now</button>
                     </div>
                 ))}

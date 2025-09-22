@@ -20,7 +20,8 @@ const Navbar = ({ onOpenModal }) => {
           </ul>
         </nav>
         <button className="create-jobs-btn" onClick={onOpenModal}>
-          Create Jobs
+          <span className="default-text">Create Job</span>
+          <span className="hover-text">Login</span>
         </button>
       </div>
     </div>
@@ -28,3 +29,4 @@ const Navbar = ({ onOpenModal }) => {
 };
 
 export default Navbar;
+
